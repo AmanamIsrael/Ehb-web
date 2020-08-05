@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "urimm"
+    }
+  },
+  "defaultProject": "urimm",
+  "cli": {
+    "analytics": false
+  }
 }
