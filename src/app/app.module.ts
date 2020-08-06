@@ -7,6 +7,8 @@ import { ReadComponent } from './components/read/read.component';
 import { SettingsComponent } from './components/settings/settings.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { LibraryComponent } from './components/library/library.component';
+import { NavbarComponent } from './components/partials/navbar/navbar.component';
+import { SidebarComponent } from './components/partials/sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { LibraryComponent } from './components/library/library.component';
     ReadComponent,
     SettingsComponent,
     ProfileComponent,
-    LibraryComponent
+    LibraryComponent,
+    NavbarComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,

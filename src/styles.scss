@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+ //fonts
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+ //Colors
+ $colors: ( primary-color:#2D6FE3,
+ primary-light: #609AFF,
+ dark: #02182D,
+ light: #FFFFFF,
+ almost-white: #F7F7F7,
+ );
+ * {
+     box-sizing: border-box;
+ }
+ 
+ body {
+     margin: 0;
+     padding: 0;
+     background-color: map-get($colors, dark);
+     color: map-get($colors, light);
+     font-family: 'Roboto', sans-serif;
+ }
