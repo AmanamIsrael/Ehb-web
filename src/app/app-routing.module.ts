@@ -6,10 +6,11 @@ import { LibraryComponent } from './components/library/library.component';
 import { SettingsComponent } from './components/settings/settings.component';
 
 const routes: Routes = [
-  {path: '', component: ReadComponent},
-  {path: 'profile', component: ProfileComponent},
-  {path: 'library', component: LibraryComponent},
-  {path: 'settings', component: SettingsComponent}
+  {path: '', component: ReadComponent, children: [
+    {path: 'profile', component: ProfileComponent},
+    {path: 'library', component: LibraryComponent},
+    {path: 'settings', component: SettingsComponent}
+  ]},
 ];
 
 @NgModule({
