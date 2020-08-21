@@ -19,3 +19,25 @@
      color: map-get($colors, light);
      font-family: 'Roboto', sans-serif;
  }
+ 
+ bg-primary {
+     background-color: map-get($colors, primary);
+ }
+ 
+ button {
+     outline-color: none;
+     outline: 0;
+     &:focus {
+         outline: 0;
+         box-shadow: none;
+         border: 0;
+     }
+ }
+ 
+ input {
+     &:focus,
+      :active {
+         outline-color: 0 !important;
+         border: 0 !important;
+     }
+ }
