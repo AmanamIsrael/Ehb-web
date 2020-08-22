@@ -11,3 +11,11 @@
         height: 100px;
     }
 }
+
+.activeRoute {
+    background-color: #02182D;
+    svg>path,
+    svg>g>path {
+        fill: #609AFF;
+    }
+}
